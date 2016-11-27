@@ -1,0 +1,131 @@
+
+
+
+body {
+    font-size: 25px;
+    font-family: "Segoe Print";
+    background-image: url(fon3.jpg);
+}
+
+
+button:focus {outline: none;}
+
+#submit, #submit2 { border: none; margin-left:70px; margin-top:5px; margin-bottom:20px; cursor: pointer; color: #fff; font-size: 24px; background-color: #7472C8; padding: 5px 36px 8px 36px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); border-bottom: 1px solid rgba(0, 0, 0, 0.4); border-top: 1px solid rgba(255, 255, 255, 0.6);
+    background: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0.23, hotpink),
+            color-stop(0.62, pink)
+    );
+
+}
+
+#submit {
+    margin-left: 270px;
+}
+
+#submit2 {
+    margin: auto;
+}
+
+#submit:hover, #submit2:hover { color: #fff; border-bottom: 1px solid rgba(0, 0, 0, 0.4); background-color: #ff5400;
+    background: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0.23, #97A11D),
+            color-stop(0.62, #C3D044)
+    );
+
+}
+
+#submit:active, #submit2:active  { top: 0px; }
+
+select:focus {outline: none;}
+input,  select { background-color: rgba(255, 255, 255, 0.4); border: 3px solid rgba(122, 192, 0, 0.15); padding: 5px; font-family: Keffeesatz, Arial; color: #4b4b4b; font-size: 19px; -webkit-border-radius: 5px; margin-bottom: 2px;  margin-left:75px;}
+select {margin-top: 15px; margin-left: 165px; }
+input:focus, select:focus{ border: 3px solid #60C3ED ; background-color: rgba(255, 255, 255, 1); }
+
+.fon{
+    width: 680px;
+    margin: 60px auto 30px;
+    padding: 10px;
+    position: relative; /* For the submit button positioning */
+
+    box-shadow:
+    0 0 1px rgba(0, 0, 0, 0.3),
+    0 3px 7px rgba(0, 0, 0, 0.3),
+    inset 0 1px rgba(255,255,255,1),
+    inset 0 -3px 2px rgba(0,0,0,0.25);
+    border-radius: 5px;
+    background: linear-gradient(#F5DEB3, white 90%);
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    background-color: pink;
+    border: groove red;
+}
+#table1{
+
+}
+td{
+    font-family: "Segoe Print";
+    border-top-style: groove;
+    border-color: red;
+    padding-bottom: 10px;
+}
+#combobox{
+    margin: auto;
+    font-family: "Segoe Print";
+}
+#combobox2{
+    margin: auto;
+    font-family: "Segoe Print";
+}
+#text{
+    margin-top: 20px;
+    margin-left: 150px;
+    width:350px;
+    height:30px;
+    font-size: 20px;
+    font-family: "Segoe Print";
+}
+#rec1{
+    margin-top: 30px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+#rec2{
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+h1{
+    margin-top: auto;
+    margin-left: 250px;
+    color: navy;
+}
+#addcolor{
+    margin-top: 30px;
+    margin-left: 150px;
+    font-size: 20px;
+    width: 400px;
+}
+#1row{
+
+}
+#2row{
+
+}
+#3row{
+
+}
+#4row{
+
+}
+
+
+

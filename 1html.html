@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Лабораторная работа №5</title>
+    <script src="JavaScript1.js"></script>
+    <link rel="stylesheet" type="text/css" href="Style1.css" />
+</head>
+<body>
+<div class="fon">
+    <h1>А.Блок</h1>
+    <div>
+        <table >
+            <tr><td id="1row" onmouseout="onmouseout1(this)" onmouseover="onmouseover1(this,0)">Одной тебе, тебе одной,</td></tr>
+            <tr><td id="2row" onmouseout="onmouseout1(this)" onmouseover="onmouseover1(this,1)">Любви и счастия царице,</td></tr>
+            <tr><td id="3row" onmouseout="onmouseout1(this)" onmouseover="onmouseover1(this,2)">Тебе прекрасной, молодой</td></tr>
+            <tr><td id="4row" onmouseout="onmouseout1(this)" onmouseover="onmouseover1(this,3)">Все жизни лучшие страницы!</td></tr>
+        </table>
+    </div>
+    <textarea id="text" onkeydown="return false"></textarea>
+    <div id="rec1">Выбирете цвет:
+        <select id="combobox">
+            <option value="green">Зеленый</option>
+            <option value="red">Красный</option>
+            <option value="blue">Синий</option>
+        </select>
+    </div>
+
+    <div id="rec2">Выбирете размер:
+        <select id="combobox2">
+            <option value="size1">Маленький</option>
+            <option value="size2">Средний</option>
+            <option value="size3">Крупный</option>
+        </select>
+    </div>
+
+    <button id="submit" onclick="p()">OK</button>
+    <div id="addcolor">Можете добавить новый цвет в список. Для этого нажмите кнопку "Добавить"
+         <button id="submit2" onclick="addOption()" id="add">Добавить</button>
+    </div>
+</div>
+</body>
+</html>
